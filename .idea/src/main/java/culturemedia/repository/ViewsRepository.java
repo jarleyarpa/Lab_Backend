@@ -11,5 +11,5 @@ public interface ViewsRepository {
     List<View> findByUserFullName(String userFullName);
     List<View> findByStartPlayingTime(LocalDateTime startPlayingTime);
     List<View> findByAgeRange(int minAge, int maxAge);
-    List<View> findByVideo(String videoId);
+    List<View> findByVideo(String code);
 }
