@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding video-views structures">
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/ApplicationRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/exception/CultureMediaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/exception/CultureMediaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/model/Video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/model/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/repository/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/VideoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/repository/ViewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/ViewsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/service/CulturemediaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/CulturemediaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/java/culturemedia/service/CulturemediaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/CulturemediaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/VideoRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/ViewsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,23 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;R4-Creating-Exceptions-Structures&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "R6-Integrating-repositories-implementations",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\Lab_Backend" />
