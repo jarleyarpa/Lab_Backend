@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding repositories implementations">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/culturemedia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/exception/DurationNotValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/exception/VideoNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/VideoRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/ViewsRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/culturemedia/repository/VideoRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/exception/CultureMediaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/exception/cultureMediaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/repository/VideoRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/repository/ViewsRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/CulturemediaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/culturemediaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/CulturemediaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding video repository test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +91,7 @@
       <workItem from="1732170630437" duration="3942000" />
       <workItem from="1732174919969" duration="1490000" />
       <workItem from="1732208882985" duration="2157000" />
-      <workItem from="1732219143342" duration="7953000" />
+      <workItem from="1732219143342" duration="8343000" />
     </task>
     <task id="LOCAL-00001" summary="Adding maven, configuration, and directories">
       <option name="closed" value="true" />
@@ -157,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732214457456</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding video repository test">
+      <option name="closed" value="true" />
+      <created>1732227870997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732227870997</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +161,7 @@
     <MESSAGE value="Adding Culturemedia service structures" />
     <MESSAGE value="Adding video-views structures" />
     <MESSAGE value="Adding repositories implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding repositories implementations" />
+    <MESSAGE value="Adding video repository test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding video repository test" />
   </component>
 </project>
