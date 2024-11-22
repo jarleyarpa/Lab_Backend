@@ -17,9 +17,15 @@ public class culturemediaServiceImpl implements culturemediaService {
         this.videoRepository = videoRepository;
         this.viewsRepository = viewsRepository;
     }
+
     @Override
     public List<Video> getAllVideos() throws VideoNotFoundException {
-        return videoRepository.findAll();
+        List<Video> videos = videoRepository.findAll();
+        if (videos.isEmpty()) {
+            throw new VideoNotFoundException();
+        } else {
+            return videos;
+        }
     }
 
     @Override
@@ -37,4 +43,3 @@ public class culturemediaServiceImpl implements culturemediaService {
         return viewsRepository.findByVideo(code);
     }
 }
-
