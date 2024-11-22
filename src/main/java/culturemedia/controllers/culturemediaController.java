@@ -6,7 +6,7 @@ import culturemedia.exception.VideoNotFoundException;
 import culturemedia.model.Video;
 import culturemedia.service.impl.culturemediaServiceImpl;
 
-private class culturemediaController {
+public class culturemediaController {
 
     private final culturemediaServiceImpl culturemediaService;
 
@@ -17,8 +17,12 @@ private class culturemediaController {
     public List<Video> getAllVideos() throws VideoNotFoundException {
         List<Video> videos = culturemediaService.getAllVideos();
         if (videos == null || videos.isEmpty()) {
-            throw new VideoNotFoundException();
+            throw new VideoNotFoundException("No Videos Found");
         }
         return videos;
+    }
+    public Video save(Video video){
+        culturemediaService.save(video);
+        return video;
     }
 }

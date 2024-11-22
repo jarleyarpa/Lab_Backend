@@ -7,18 +7,15 @@ import culturemedia.repository.VideoRepository;
 import culturemedia.repository.ViewsRepository;
 import culturemedia.service.culturemediaService;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class culturemediaServiceImpl implements culturemediaService {
-    private final VideoRepository videoRepository;
-    private final ViewsRepository viewsRepository;
-
-    public culturemediaServiceImpl(VideoRepository videoRepository, ViewsRepository viewsRepository) {
-        this.videoRepository = videoRepository;
+    private VideoRepository videoRepository;
+    private ViewsRepository viewsRepository;
+    public culturemediaServiceImpl(ViewsRepository viewsRepository, VideoRepository videoRepository) {
         this.viewsRepository = viewsRepository;
+        this.videoRepository = videoRepository;
     }
-
     @Override
     public List<Video> getAllVideos() throws VideoNotFoundException {
         List<Video> videos = videoRepository.findAll();
@@ -28,40 +25,32 @@ public class culturemediaServiceImpl implements culturemediaService {
             return videos;
         }
     }
-
     @Override
-    public Video addVideo(Video video) {
-        return videoRepository.save(video);
+    public Video save(Video video) {
+        videoRepository.save(video);
+        return video;
+    }
+    @Override
+    public View save(View view) {
+        viewsRepository.save(view);
+        return view;
     }
 
     @Override
-    public View addView(View view) { return viewsRepository.save(view); }
-
-    public List<Video> findByTitle(String title) throws VideoNotFoundException {
-        List<Video> videos = videoRepository.findAll();
-        List<Video> matchingVideos = new ArrayList<>();
-        for (Video video : videos) {
-            if (video.title().toLowerCase().contains(title.toLowerCase())) {
-                matchingVideos.add(video);
-            }
-        }
-        if(matchingVideos.isEmpty()) {
-            throw new VideoNotFoundException(title);
+    public List<Video> findByDuration(Double fromDuration, Double toDuration) throws VideoNotFoundException {
+        List<Video> matchingVideos = videoRepository.findByDuration(fromDuration, toDuration);
+        if (matchingVideos.isEmpty()) {
+            throw new VideoNotFoundException();
         }
         return matchingVideos;
     }
 
-    public List<Video> findByDuration(Double duration, double v) throws VideoNotFoundException {
-        List<Video> videos = videoRepository.findAll();
-        List<Video> savedVideos = new ArrayList<>();
-        for (Video video : videos) {
-            if (video.duration().equals(duration)) {
-                savedVideos.add(video);
-            }
+    @Override
+    public List<Video> findByTitle(String title) throws VideoNotFoundException {
+        List<Video> matchingVideos = videoRepository.findByTitle(title);
+        if (matchingVideos.isEmpty()) {
+            throw new VideoNotFoundException(title);
         }
-        if (savedVideos.isEmpty()){
-            throw new VideoNotFoundException();
-        }
-        return savedVideos;
+        return matchingVideos;
     }
 }
