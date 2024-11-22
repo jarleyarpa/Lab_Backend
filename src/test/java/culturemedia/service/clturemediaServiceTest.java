@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class culturemediaServiceTest {
+public class clturemediaServiceTest {
 
     private final culturemediaService culturemediaService = new culturemediaServiceImpl(new VideoRepositoryImpl(), new ViewsRepositoryImpl());
 
