@@ -35,9 +35,7 @@ public class culturemediaServiceImpl implements culturemediaService {
     }
 
     @Override
-    public View addView(View view) {
-        return viewsRepository.save(view);
-    }
+    public View addView(View view) { return viewsRepository.save(view); }
 
     public List<Video> findByTitle(String title) throws VideoNotFoundException {
         List<Video> videos = videoRepository.findAll();
