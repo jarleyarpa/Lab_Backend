@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding video repository test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/culturemedia/service/clturemediaServiceTest.java" afterDir="false" />
+    <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding findByTitle and byDuration,">
+      <change afterPath="$PROJECT_DIR$/src/main/java/culturemedia/controllers/culturemediaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/exception/DurationNotValidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/exception/DurationNotValidException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/culturemediaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/culturemediaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/culturemedia/service/culturemediaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/culturemedia/service/clturemediaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/culturemedia/service/culturemediaServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
     "JUnit.VideosServiceImplTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "R9-Adding–findByTitle-and-byDuration",
+    "git-widget-placeholder": "R10-Adding–controller",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="culturemedia.controllers" />
       <recent name="service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VideosServiceImplTest" />
         <item itemvalue="JUnit.VideosServiceImplTest" />
       </list>
     </recent_temporary>
@@ -194,7 +193,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732227961720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding findByTitle and byDuration,">
+      <option name="closed" value="true" />
+      <created>1732254950565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732254950565</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding findByTitle and byDuration,">
+      <option name="closed" value="true" />
+      <created>1732254973056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732254973056</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding findByTitle and byDuration,">
+      <option name="closed" value="true" />
+      <created>1732255016440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732255016440</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +230,7 @@
     <MESSAGE value="Adding video-views structures" />
     <MESSAGE value="Adding repositories implementations" />
     <MESSAGE value="Adding video repository test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding video repository test" />
+    <MESSAGE value="Adding findByTitle and byDuration," />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding findByTitle and byDuration," />
   </component>
 </project>
