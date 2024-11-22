@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding controller">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/controllers/culturemediaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/controllers/culturemediaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/repository/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/VideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/VideoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/VideoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/culturemediaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/culturemediaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/culturemedia/repository/VideoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/culturemedia/repository/VideoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/culturemedia/service/culturemediaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/culturemedia/service/culturemediaServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732256045871</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding controller">
+      <option name="closed" value="true" />
+      <created>1732256967885</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732256967885</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
