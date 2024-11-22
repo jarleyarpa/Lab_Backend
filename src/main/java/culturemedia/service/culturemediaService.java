@@ -1,9 +1,9 @@
 package culturemedia.service;
 
+import culturemedia.exception.VideoNotFoundException;
 import culturemedia.model.Video;
 import culturemedia.model.View;
 import java.util.List;
-import culturemedia.exception.VideoNotFoundException;
 
 public interface culturemediaService {
     List<Video> getAllVideos() throws VideoNotFoundException;
@@ -11,4 +11,3 @@ public interface culturemediaService {
     View addView(View view);
     List<View> getViewsByVideo(String code);
 }
-
