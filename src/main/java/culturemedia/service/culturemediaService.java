@@ -9,5 +9,7 @@ public interface culturemediaService {
     List<Video> getAllVideos() throws VideoNotFoundException;
     Video addVideo(Video video);
     View addView(View view);
-    List<View> getViewsByVideo(String code);
+    List<Video> findByDuration(Double duration, double v) throws VideoNotFoundException;
+    List<Video> findByTitle(String title) throws VideoNotFoundException;
+}
 }
