@@ -7,11 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Mocking repositories in service test cases,">
+    <list default="true" id="8e0703a4-5700-42b5-9544-25b7ba5e85d8" name="Changes" comment="Adding controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/ApplicationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/ApplicationRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/controllers/culturemediaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/controllers/culturemediaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/VideoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/VideoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/ViewsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/repository/impl/ViewsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/culturemedia/service/impl/culturemediaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +141,7 @@
       <workItem from="1732208882985" duration="2157000" />
       <workItem from="1732219143342" duration="12151000" />
       <workItem from="1732247713003" duration="5442000" />
-      <workItem from="1732338401365" duration="3431000" />
+      <workItem from="1732338401365" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="Adding maven, configuration, and directories">
       <option name="closed" value="true" />
@@ -266,8 +269,8 @@
     <MESSAGE value="Adding repositories implementations" />
     <MESSAGE value="Adding video repository test" />
     <MESSAGE value="Adding findByTitle and byDuration," />
-    <MESSAGE value="Adding controller" />
     <MESSAGE value="Mocking repositories in service test cases," />
-    <option name="LAST_COMMIT_MESSAGE" value="Mocking repositories in service test cases," />
+    <MESSAGE value="Adding controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding controller" />
   </component>
 </project>
