@@ -1,6 +1,7 @@
 package culturemedia.exception;
 
-import java.text.MessageFormat;
+import java.text.MessageFormat;;
+
 public class DurationNotValidException extends cultureMediaException {
     public DurationNotValidException(String title,Double duration) {
         super(MessageFormat.format(

@@ -1,4 +1,4 @@
-package repository;
+package culturemedia.repository;
 
 import java.util.List;
 

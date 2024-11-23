@@ -1,6 +1,4 @@
-package service;
-
-import java.util.List;
+package culturemedia.service;
 
 import culturemedia.exception.VideoNotFoundException;
 import culturemedia.model.Video;
@@ -13,11 +11,13 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.doReturn;
 
-public class CulturemediaServiceImplTest {
+class culturemediaServiceTest {
 
     @InjectMocks
     private culturemediaServiceImpl culturemediaService;
@@ -59,27 +59,27 @@ public class CulturemediaServiceImplTest {
 
     @Test
     void when_FindByTitle_all_videos_should_be_returned_successfully() throws VideoNotFoundException {
-        doReturn(listVideos().subList(0, 4)).when(videoRepository).find("Título");
+        doReturn(listVideos().subList(0, 4)).when(videoRepository).findByTitle("Título");
         List<Video> videos = culturemediaService.findByTitle("Título");
         assertEquals(4, videos.size());
     }
 
     @Test
     void when_FindByTitle_does_not_find_any_video_an_VideoNotFoundException_should_be_thrown_successfully() {
-        doReturn(List.of()).when(videoRepository).find("Hello");
+        doReturn(List.of()).when(videoRepository).findByTitle("Hello");
         assertThrows(VideoNotFoundException.class, () -> culturemediaService.findByTitle("Hello"));
     }
 
     @Test
     void when_FindByDuration_all_videos_should_be_returned_successfully() throws VideoNotFoundException {
-        doReturn(List.of(new Video("02", "Título 2", "----", 5.5))).when(videoRepository).find(5.4, 5.6);
+        doReturn(List.of(new Video("02", "Título 2", "----", 5.5))).when(videoRepository).findByDuration(5.4, 5.6);
         List<Video> videos = culturemediaService.findByDuration(5.4, 5.6);
         assertEquals(1, videos.size());
     }
 
     @Test
     void when_FindByDuration_does_not_find_any_video_an_VideoNotFoundException_should_be_thrown_successfully() {
-        doReturn(List.of()).when(videoRepository).find(5.8, 10.2);
+        doReturn(List.of()).when(videoRepository).findByDuration(5.8, 10.2);
         assertThrows(VideoNotFoundException.class, () -> culturemediaService.findByDuration(5.8, 10.2));
     }
 }
