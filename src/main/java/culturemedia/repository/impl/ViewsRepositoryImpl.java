@@ -3,10 +3,11 @@ package culturemedia.repository.impl;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+import org.springframework.stereotype.Component;
 import culturemedia.model.View;
 import culturemedia.repository.ViewsRepository;
 
+@Component
 public class ViewsRepositoryImpl implements ViewsRepository {
 
     private final List<View> views;

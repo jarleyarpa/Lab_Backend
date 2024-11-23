@@ -6,12 +6,14 @@ import culturemedia.model.View;
 import culturemedia.repository.VideoRepository;
 import culturemedia.repository.ViewsRepository;
 import culturemedia.service.culturemediaService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class culturemediaServiceImpl implements culturemediaService {
-    private VideoRepository videoRepository;
-    private ViewsRepository viewsRepository;
+    private final VideoRepository videoRepository;
+    private final ViewsRepository viewsRepository;
     public culturemediaServiceImpl(ViewsRepository viewsRepository, VideoRepository videoRepository) {
         this.viewsRepository = viewsRepository;
         this.videoRepository = videoRepository;
